@@ -9,6 +9,6 @@
     "url": "https://github.com/KeepShadow/boxbies-holders-claim.git"
   },
   "scripts": {
-    "build-dapp": "cd smart-contract && yarn && yarn compile && cd ../minting-dapp && yarn && yarn build"
+    "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
   }
 }
