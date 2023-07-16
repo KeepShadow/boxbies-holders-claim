@@ -300,10 +300,10 @@ export default class Dapp extends React.Component<Props, State> {
 
   private async refreshContractState(): Promise<void>
   {
-    const theString = (await this.contract.walletBalance(this.state.userAddress ?? '')).div(100000000).div(100000000).toString()
+    /* const theString = (await this.contract.walletBalance(this.state.userAddress ?? '')).div(100000000).div(100000000).toString() */
 
     this.setState({
-      userClaimAmount: (parseFloat(theString)/100).toString(),
+      userClaimAmount: '100'/* (parseFloat(theString)/100).toString() */,
       isPaused: await this.contract.paused(),
       isUserInWhitelist: Whitelist.contains(this.state.userAddress ?? ''),
     });
