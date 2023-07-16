@@ -1,0 +1,10 @@
+{
+  "build/main.css": "/build/main.css",
+  "build/main.js": "/build/main.js",
+  "build/images/preview.png": "/build/images/preview.png",
+  "build/images/boxbiesBackground.jpg": "/build/images/boxbiesBackground.jpg",
+  "build/images/logo.png": "/build/images/logo.png",
+  "build/images/fav.png": "/build/images/fav.png",
+  "build/images/preview-old.png": "/build/images/preview-old.png",
+  "build/images/boxbiesLogo.avif": "/build/images/boxbiesLogo.avif"
+}
