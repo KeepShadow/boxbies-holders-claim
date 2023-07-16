@@ -1,5 +1,5 @@
 {
-    "name": "@hashlips-lab/nft-erc721-collection-minting-dapp",
+    "name": "boxbies-holders-clam-dapp",
     "version": "0.0.0",
     "private": true,
     "devDependencies": {
